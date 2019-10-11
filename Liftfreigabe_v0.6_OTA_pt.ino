@@ -13,8 +13,8 @@ WebServer http_OTA_server ( 8080 );
 
 const char* host = "liftfreigabe";                                             // <<< ---- OTA Host  ------------------
 
-const char* ssid     = "GSS74_HA";                                               // <<< ---- WIFI Settings  ------------------
-const char* password = "tutukaka_ha";
+const char* ssid     = "YOUR SSID";                                               // <<< ---- WIFI Settings  ------------------
+const char* password = "YOUR PW";
 
 
 /*
@@ -51,7 +51,7 @@ const char* loginIndex =
 "<script>"
     "function check(form)"
     "{"
-    "if(form.userid.value=='admin' && form.pwd.value=='tutukaka')"                   // <<< ---- OTA Password ------------------
+    "if(form.userid.value=='YOUR USERNAME' && form.pwd.value=='YOUR OTA PW')"                   // <<< ---- OTA Password ------------------
     "{"
     "window.open('/serverIndex')"
     "}"
